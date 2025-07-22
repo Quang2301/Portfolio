@@ -30,3 +30,5 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 });
+
+<img src="Asset/268254576_13NHA_CHUQuang_020-Copy-1.jpg" alt="Quang Chu" />
