@@ -220,6 +220,16 @@ header nav ul li .btn {
   font-size: 1.2rem;
 }
 
+@media (max-width: 1200px) {
+  .about-main-vertical,
+  .experience,
+  .education,
+  .footer-links nav {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
 @media (max-width: 900px) {
   .about-main {
     flex-direction: column;
@@ -247,6 +257,60 @@ header nav ul li .btn {
   .about-right {
     padding: 18px 10px;
     margin-top: 0;
+  }
+  .hero-content {
+    padding: 20px 10px;
+    text-align: center;
+  }
+  .hero-content img {
+    max-width: 90vw;
+  }
+  .footer-links nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .footer-links a,
+  .footer-links .btn {
+    margin: 8px 0;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+  .logo {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+  nav ul {
+    flex-direction: column;
+    gap: 8px;
+  }
+  nav ul li {
+    margin: 0;
+  }
+  .hero-content h1 {
+    font-size: 1.3rem;
+  }
+  .about-topbar h2,
+  .education h2,
+  .experience h2 {
+    font-size: 1.3rem;
+  }
+  .about-details li,
+  .education-list li,
+  .experience-list li {
+    font-size: 0.95rem;
+    padding: 8px;
+  }
+  .btn {
+    font-size: 1rem;
+    padding: 10px 18px;
   }
 }
 
